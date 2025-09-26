@@ -23,7 +23,7 @@ public class NaveEspacial {
         System.out.println(nombre + ": despegó correctamente.");
     }
 
-    // Modelo simple: consumo 1:1 con la distancia
+    // Consumo 1:1 con la distancia
     public void avanzar(double distancia) {
         if (distancia <= 0) { System.out.println(nombre + ": distancia inválida."); return; }
         if (!enVuelo) { System.out.println(nombre + ": no puede avanzar sin despegar."); return; }

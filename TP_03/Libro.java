@@ -17,7 +17,7 @@ public class Libro {
     public String getAutor() { return autor; }
     public int getAnioPublicacion() { return anioPublicacion; }
 
-    // Setter con validación (regla mínima razonable)
+    // Setter con validación 
     public void setAnioPublicacion(int anioPublicacion) {
         if (anioPublicacion <= 0) {
             System.out.println("Año inválido (" + anioPublicacion + "). Se mantiene: " + this.anioPublicacion);
